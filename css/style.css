@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50;
+  font-weight: bold;
+  /* margin-top: 0; */
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+
+}
+
+.first_section {
+  margin: 0px;
+  background-color: rgb(202, 232, 202);
+}
+
+.stores_qrCode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.qr_code {
+  width: 40%;
+  height: 40%;
+  margin-left: 20px;
+}
+
+.download_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.download_app img {
+  width: 90px;
+}
+
+.hand_phone-1 {
+  width: 40%;
+}
+
+.center_of_section {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.links_section img {
+  width: 15%;
+}
+
+.links_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 12px;
+  background-color: rgb(197, 204, 215);
+}
+
+.one_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(61, 106, 169);
+  margin: 20px;
+}
+
+.text_link {
+  margin: 10px;
+}
