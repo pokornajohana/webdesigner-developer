@@ -7,15 +7,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 h1 {
   font-family: 'Roboto', sans-serif;
   /* font-size: 50px; */
   text-align: center;
-  font-weight: 600;
-  margin-top: 0;
-  padding: 20px 20px 0 20px;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  color: #00275a;
 }
 
 h2 {
@@ -74,7 +75,7 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   font-size: 12px;
-  background-color: rgb(197, 204, 215);
+  background-color: #0D1F28
 }
 
 .one_link {
@@ -85,9 +86,14 @@ h2 {
   margin: 20px;
 }
 
+.link_icon {
+  color: #bae2fc;
+}
+
 .text_link {
   margin: 10px;
   text-decoration: underline;
+  color: #bae2fc;
 }
 
 .second_section {
@@ -96,6 +102,7 @@ h2 {
 
 .one_point {
   display: flex;
+  align-items: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: small;
