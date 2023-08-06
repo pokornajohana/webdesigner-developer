@@ -83,5 +83,28 @@ h2 {
 
 .second_section {
   background-color: rgb(202, 232, 202);
-  ;
+}
+
+.one_point {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  padding: 10px;
+}
+
+.CTA {
+  margin: 10px;
+  text-decoration: underline;
+  color: rgb(61, 106, 169);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.point_picture {
+  padding: 5px;
+}
+
+.phone_picture_2 {
+  width: 40%;
 }
