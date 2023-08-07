@@ -28,7 +28,7 @@ h2 {
 }
 
 /* FIRST SECTION  */
-.first_section {
+#first_section {
   margin: 0px;
   background-color: rgb(244, 246, 253)
 }
@@ -100,7 +100,7 @@ h2 {
 }
 
 /* SECOND SECTION */
-.second_section {
+#second_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,7 +134,7 @@ h2 {
 }
 
 /* THIRD SECTION */
-.third_section {
+#third_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,7 +147,7 @@ h2 {
 }
 
 /* FORTH SECTION */
-.forth_section {
+#forth_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,7 +172,7 @@ h2 {
 }
 
 /* FIFTH SECTION */
-.fifth_section {
+#fifth_section {
   background-color: rgb(244, 246, 253)
 }
 
