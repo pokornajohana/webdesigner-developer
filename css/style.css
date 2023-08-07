@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Roboto';
 }
 
 .title {
@@ -26,9 +27,10 @@ h2 {
   padding: 10px 10px 0 10px;
 }
 
+/* FIRST SECTION  */
 .first_section {
   margin: 0px;
-  background-color: rgb(202, 232, 202);
+  background-color: rgb(244, 246, 253)
 }
 
 .stores_qrCode {
@@ -52,8 +54,9 @@ h2 {
   padding-left: 15px;
 }
 
-.download_app img {
+.apps {
   width: 90px;
+  margin: 5px
 }
 
 .hand_phone-1 {
@@ -96,8 +99,12 @@ h2 {
   color: #bae2fc;
 }
 
+/* SECOND SECTION */
 .second_section {
-  background-color: rgb(202, 232, 202);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(244, 246, 253)
 }
 
 .one_point {
@@ -126,17 +133,25 @@ h2 {
   width: 40%;
 }
 
+/* THIRD SECTION */
 .third_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0px;
-  background-color: rgb(197, 204, 215);
+  background-color: rgb(244, 246, 253)
 }
 
 .phone_picture_3 {
   width: 40%;
 }
 
+/* FORTH SECTION */
 .forth_section {
-  background-color: rgb(202, 232, 202);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(244, 246, 253)
 }
 
 /* .center_of_section_5 {
@@ -156,6 +171,24 @@ h2 {
   padding: 10px;
 }
 
+/* FIFTH SECTION */
 .fifth_section {
-  background-color: rgb(197, 204, 215);
+  background-color: rgb(244, 246, 253)
+}
+
+.second_points {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: small;
+}
+
+.circle_icon {
+  margin: 10px;
+}
+
+.download_app_5 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
 }
