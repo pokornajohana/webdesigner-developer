@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  padding: 10px;
 }
 
 h1 {
@@ -198,7 +198,7 @@ h2 {
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background: linear-gradient(white 0%, #bae2fc 15%);
     /* background-color: rgb(186, 226, 252); */
   }
@@ -207,4 +207,49 @@ h2 {
     width: 80%;
   }
 
+  .title_text {
+    text-align: start;
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .point_text {
+    font-size: 17px;
+  }
+
+  .CTA {
+    font-size: 19px;
+  }
+
+  #first_section {
+    background: linear-gradient(145deg, #F2FDE5, white 50%);
+  }
+
+
+  #second_section {
+    text-align: start;
+    background-color: white;
+  }
+
+  #third_section {
+    text-align: start;
+    background: linear-gradient(145deg, #F2FDE5, white 50%);
+  }
+
+  #forth_section {
+    text-align: start;
+    background-color: white;
+  }
+
+  #fifth_section {
+    text-align: start;
+    background: linear-gradient(145deg, #F2FDE5, white 50%);
+  }
+
+  .links_section {
+    flex-direction: row;
+  }
 }
