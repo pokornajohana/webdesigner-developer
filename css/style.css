@@ -99,14 +99,14 @@ section {
   margin: 20px;
 }
 
-.link_icon {
-  color: #bae2fc;
+.link_icon_desktop {
+  display: none
 }
 
 .text_link {
   margin: 10px;
   text-decoration: underline;
-  color: #bae2fc;
+  color: #cee5f4;
 }
 
 /* SECOND SECTION */
@@ -262,8 +262,13 @@ section {
     text-align: start;
   }
 
-  .link_icon {
+  .link_icon_desktop {
+    display: block;
     width: 50px;
+  }
+
+  .link_icon {
+    display: none;
   }
 
   .links_section {
