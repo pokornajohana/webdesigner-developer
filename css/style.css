@@ -157,6 +157,10 @@ section {
   width: 40%;
 }
 
+.phone_picture_3_desktop {
+  display: none;
+}
+
 /* FORTH SECTION */
 #forth_section {
   display: flex;
@@ -208,6 +212,7 @@ section {
 
 .download_app_5 img {
   width: 30%;
+  max-width: 200px;
 }
 
 
@@ -235,13 +240,13 @@ section {
   }
 
   .title_text {
-    font-size: 45px;
+    font-size: 50px;
     margin: 10px;
   }
 
   .description {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 300;
     padding: 30px;
     text-align: center;
 
@@ -272,6 +277,7 @@ section {
 
   .description_1 {
     text-align: start;
+    font-weight: 600;
   }
 
   .link_icon_desktop {
@@ -333,9 +339,14 @@ section {
     background: linear-gradient(145deg, #F2FDE5, white 50%);
   }
 
-  .phone_picture_3 {
+  .phone_picture_3_desktop {
+    display: block;
     width: 40%;
     max-width: 600px;
+  }
+
+  .phone_picture_3 {
+    display: none;
   }
 
   /* FORTH SECTION */
