@@ -253,16 +253,17 @@ section {
   }
 
   .point_text {
-    font-size: 17px;
+    font-size: 25px;
   }
 
   .CTA {
-    font-size: 19px;
+    font-size: 25px;
   }
 
   .desktop {
     display: flex;
     align-items: center;
+    width: 90%;
   }
 
   /* FIRST SECTION */
@@ -301,9 +302,6 @@ section {
     font-weight: 500;
   }
 
-  .point_text {
-    font-size: 20px;
-  }
 
   /* SECOND SECTION */
   #second_section {
