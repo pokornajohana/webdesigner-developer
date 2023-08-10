@@ -17,15 +17,14 @@ main {
   line-height: 1.3;
 }
 
-h1 {
+.title_text {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
   text-align: center;
   margin: 0;
-  padding: 10px 20px 10px 20px;
+  padding: 30px 20px 10px 20px;
   color: #00275a;
 }
-
 
 section {
   padding: 0;
@@ -38,6 +37,10 @@ section {
   font-size: 20px;
   /* padding: 10px 10px 0 20px; */
   padding: 15px 50px 0 50px;
+}
+
+.points {
+  margin: 20px;
 }
 
 .strong {
@@ -92,7 +95,7 @@ section {
 
 .hand_phone-1 {
   width: 40%;
-  max-width: 600px;
+  max-width: 600px
 }
 
 .center_of_section {
@@ -163,6 +166,7 @@ section {
 
 .phone_picture_2 {
   width: 40%;
+  margin: 20px;
 }
 
 /* THIRD SECTION */
@@ -225,7 +229,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0 0px 0;
+  margin: 20px 0 20px 0;
 }
 
 .download_app_5 img {
@@ -246,9 +250,6 @@ section {
   font-size: 17px;
 }
 
-.center_of_section_5 {
-  /* margin: 10px; */
-}
 
 .one_point_5 {
   display: flex;
@@ -405,6 +406,7 @@ section {
   .phone_picture_3 {
     display: none;
   }
+
 
   /* FORTH SECTION */
   #forth_section {
