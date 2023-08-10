@@ -230,7 +230,7 @@ section {
 
 .download_app_5 img {
   width: 40%;
-  max-width: 150px;
+  max-width: 180px;
 }
 
 .phone_picture_5_desktop {
@@ -316,6 +316,10 @@ section {
     /* width: 90%; */
   }
 
+  .apps {
+    margin: 5px 20px 5px 20px;
+  }
+
   /* FIRST SECTION */
   #first_section {
     background: linear-gradient(145deg, #F2FDE5, white 50%);
@@ -332,8 +336,8 @@ section {
   }
 
   .scan_QR {
-    display: block;
-    align-self: start;
+    display: initial;
+    align-self: flex-start;
   }
 
   .top_text,
